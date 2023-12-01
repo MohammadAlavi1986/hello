@@ -13,7 +13,7 @@ func helloHandler(w http.ResponseWriter, r *http.Request) {
 	}
 
 	fmt.Fprintln(w, response)
-	fmt.Println("Hello World!")
+	fmt.Println("Servicing an impatient beginner's request.")
 }
 
 func listenAndServe(port string) {
